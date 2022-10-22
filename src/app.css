@@ -1,0 +1,171 @@
+html, body{
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#sub-root{
+    flex: auto;
+    min-height: 0;
+}
+
+input{
+    display: block;
+    flex: 1 1 0;
+    border: 1px solid gray;
+    margin: 1px;
+    min-width: 0;
+}
+
+.header {
+    display: flex;
+    flex: none;
+    height: 48px;
+    align-items: center;
+    background-color: #6cb0f9;
+    color: white;
+}
+
+.content{
+    flex: auto;
+    min-height: 0;
+    overflow: auto;
+}
+
+button{
+    display: block;
+    border: none;
+    margin: 1px;
+    background-color: #51aeff;
+    color: white;
+}
+
+button:focus{
+    outline: gray solid 1px;
+}
+
+.header .home{
+    padding: 0 16px;
+}
+
+h1{
+    text-align: center;
+}
+
+.edit-title-detail{
+    display: flex;
+    margin: 0 15px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.edit-title-detail-dot{
+    background-color: #51aeff;
+    width: 4px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.edit-detail-content{
+    background-color: white;
+    padding: 2px 15px;
+}
+
+.row{
+    display: flex;
+    height: 28px;
+}
+
+.row.no-delete{
+    margin-right: 26px;
+}
+
+.label{
+    flex: 1 1 0;
+    text-align: center;
+}
+
+button.delete{
+    aspect-ratio: 1;
+}
+
+button.add{
+    width: 26px;
+    height: 26px;
+    margin: 1px auto;
+}
+
+button.confirm, button.cancel{
+    flex: 1 1 0;
+}
+
+.final{
+    display: flex;
+    flex: none;
+    font-size: large;
+    height: 45px;
+    text-align: center;
+    background-color: #51aeff;
+}
+
+.final button{
+    flex: 1 1 0;
+    margin: 0;
+    z-index: 129;
+    font-size: 15px;
+}
+
+.final .separator{
+    width: 1px;
+    margin: 8px 0;
+    z-index: 128;
+    background-color: white;
+}
+
+.button-app{
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.title{
+    font-size: 18px;
+    flex: auto;
+}
+
+.hx-content{
+    flex: auto;
+}
+
+.hx-detail-statusIcon{
+    top: 58px !important;
+}
+
+.stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about{
+    text-align: center;
+}
