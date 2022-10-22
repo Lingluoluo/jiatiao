@@ -1,6 +1,6 @@
 # Fake Yiban: 不一般的易班
 
-# [Start](https://lingluoluo.github.io/fake-yiban/dist/)
+# [Start](https://lingluoluo.github.io/jiatiao/dist/)
 
 WARNING: This program is only used for demonstration and should not be abused. Use it at your own risk.
 
@@ -19,4 +19,3 @@ I use Android as an example here:
 3. Open the "Start" link above in Chrome or Firefox.
 
 4. Go to the menu and tap "Install App"(or something similar).
-
