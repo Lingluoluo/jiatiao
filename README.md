@@ -8,14 +8,8 @@ WARNING: This program is only used for demonstration and should not be abused. U
 
 本项目仅作为修改自用，版权信息请查看LICENSE
 
-## Installing on mobile devices
-
-I use Android as an example here:
-
-1. Download and install Chrome or Firefox(if you don't have).
-
-2. Go to settings and allow it to install shortcuts.
-
-3. Open the "Start" link above in Chrome or Firefox.
-
-4. Go to the menu and tap "Install App"(or something similar).
+----------
+## 2023.09.30更新
+本项目已经过时，与学校现行版本假条样式有所差异，请慎重使用。 
+这个项目我也是抄的，目前状态是屎山。可能未来我会考虑重构更新一下。
+----------
